@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Vocabulary</string>
+    <string name="text1">VOCABULARY</string>
+    <string name="button1">VIEW WORDS</string>
+    <string name="button2">ADD WORD</string>
+    <string name="button5">ADD</string>
+    <string name="button6">SEARCH</string>
+    <string name="edittext">word</string>
+    <string name="editTesxt4">make a sentence</string>
+    <string name="textView">WORDS</string>
+</resources>
