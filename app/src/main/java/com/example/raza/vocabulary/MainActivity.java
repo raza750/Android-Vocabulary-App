@@ -9,13 +9,15 @@ public class MainActivity extends AppCompatActivity {
 
     Button button_first, button_second;
     TextView textView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        RelativeLayout layout = new RelativeLayout(this);
-        textView = (TextView)findViewById(R.id.text1);
+        textView = (TextView)findViewById(R.id.textview_item);
         button_first = (Button)findViewById(R.id.button);
+        button_second = (Button)findViewById(R.id.button2);
+
         button_first.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -23,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        button_second = (Button)findViewById(R.id.button2);
         button_second.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -42,5 +43,4 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this,Main3Activity.class);
         startActivity(i);
     }
-
 }
